@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: Verdana;
+font-weight: bold;
+}
+@font-face {
+    font-family:digital-clock-font;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+.container,.fouls,#foulsbuttons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+h3{
+    color: #EEEEEE;
+}
+.guestscore,.homescore{
+   background-color: #080001;
+   color:#F94F6D ;
+   font-family:digital-clock-font;
+   text-align:center ;
+line-height:40px;
+   display: block;
+   height:50px;
+   width: 50px;
+  margin: auto;
+  font-weight:normal;
+font-size:xx-large;
+}
+.reset{
+    align-self: center;
+}
+button{
+   
+    font-family:digital-clock-font;
+    background-color: #1B244A;
+    border-color:#9AABD8 ;
+    color: #9AABD8;
+    font-weight: bold;
+}
+.reset{
+    font-family: Verdana;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+#note{
+    text-align: center;
+    font-size: xx-small;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #9AABD8;  
+}
+.homefouls{
+    font-family: Verdana;
+    align-self: flex-end;
+    font-weight: bold;
+}
+.guestfouls{
+    font-family: Verdana;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+#homefoulss,#guestfoulss{
+    background-color: #080001;
+    color:#F94F6D ;
+    font-family:digital-clock-font;
+    text-align:center ;
+
+    height:15px;
+    width: 30px;
+   margin: auto;
+   font-weight:normal;
+ font-size:medium;
+}
+.fouls{
+    display: flex;
+    
+}
+#timer{
+    background-color: #080001;
+    color:#F94F6D ;
+    font-family:digital-clock-font;
+    text-align:center ;
+ line-height:40px;
+    display: block;
+    height:50px;
+    width:130px;
+   margin: auto;
+   font-weight:normal;
+ font-size:xx-large;
+}

@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <br>
+        <div id="timer" style="text-align: center;"></div>
+        <div class="container">
+            <div>
+                <h3 id="home">HOME</h3>
+                <div class="homescore" id="homescore"></div>
+                <br>
+                <button class="addonehome" onclick="addonehome()">+1</button>
+                <button class="addtwohome" onclick="addtwohome()">+2</button>
+                <button class="addthreehome" onclick="addthreehome()">+3</button>
+            </div>
+            <div>
+                <h3 id="guest">GUEST</h3>
+                <div class="guestscore" id="guestscore">
+                    
+                </div>
+                <br>
+                <button class="addoneguest" onclick="addoneguest()">+1</button>
+                <button class="addtwoguest" onclick="addtwoguest()">+2</button>
+                <button class="addthreeguest" onclick="addthreeguest()">+3</button>
+            </div>
+
+        </div>
+        <br>
+        <div id="foulsbuttons">
+       <div class="fouls"> 
+        <button class="homefouls" onclick="addfoulshome()">Add foul</button>
+        <div id="homefoulss" ></div>
+       </div> 
+       <div class="fouls">
+        <button class="guestfouls" onclick="addfoulsguest()">Add foul</button>
+        <div id="guestfoulss" ></div>
+       </div>
+</div>
+        <br>
+
+        <button class="reset" onclick="resetgame()" > New game </button>
+       <br>
+       <br>
+        <div id="note"> Note:The leading team will be highlighted in red, and if there is a draw both teams will be highlighted in red</div>
+        <script src="index.js"></script>
+    </body>
+</html>
